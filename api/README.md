@@ -33,8 +33,8 @@ $ pip install VirtualEnv
 $ Virtualenv venv
 4 - Ativar venv
 
-$ venv\scripts\activate
-5 - Instalar libs python
+$ .\env\Scripts\activate
+5 - Instalar libs python, rodar o comando no terminal powershell
 
 (venv)$ pip install -r requirements.txt
 6 - Instalar Greenlet
