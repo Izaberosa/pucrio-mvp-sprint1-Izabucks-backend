@@ -52,3 +52,8 @@ http://localhost:5000/#/
 Link para Documentação:
 
 [http://127.0.0.1:5000/openapi/]
+
+#Executar Docker 
+1.docker build -t rest-d . (cria a imagem no docker )
+2.docker run -p 5000:5000 rest-d (executar container criado na imagem)
+3.docker rmi rest-d excluir imagem (excluir imagem rest-d) 
